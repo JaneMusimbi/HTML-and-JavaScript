@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball</title>
+
+
+    <style>
+        .container{
+            display: block;
+            margin: 0 auto;
+            background:  #455d7a;
+            max-width: 1000px;
+            width: 1000px;
+            height: 1000px;
+            padding: 40px 10px;
+             border-radius: 20px;
+           
+        }
+        h1{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid rgb(252, 242, 242);
+            padding: 20px;
+            max-width: 800px;
+             color: white;
+            border-radius: 10px;
+        }
+        h2{
+           text-align: center;
+            color: white; 
+
+        }
+        img{
+             display: block;
+            margin: 0 auto;
+            width: 800px;
+        }
+        p{
+            font-size: 18px;
+            padding: 30px;
+            line-height: 1.2;
+             color: white;
+           
+        }
+        a{
+            text-decoration: none;
+            font-size: 24px;
+             color: white;
+        }
+        .Button{
+            padding: 10px;
+            display: block;
+            margin: 0 auto;
+           font-size: 24px;
+           color: white;
+           background: black;
+
+        }
+       
+    </style>
+   
+</head>
+<body>
+<section class="container">
+    <h1> I love Basketball</h1>
+    <h2> Basketball was invented by James Naismith in 1891</h2>
+<hr>
+    <img src="https://chicowildcats.com/images/2023/3/2/Zhane_1.jpg" alt="_blank">
+
+    <hr>
+    <p> <strong>Basketball </strong>is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball (approximately 9.4 inches (24 cm) in diameter) through the defender's hoop (a basket 18 inches (46 cm) in diameter mounted 10 feet (3.048 m) high to a backboard at each end of the court), while preventing the opposing team from shooting through their own hoop. A field goal is worth two points, unless made from behind the three-point line, when it is worth three. After a foul, timed play stops and the player fouled or designated to shoot a technical foul is given one, two or three one-point free throws. The team with the most points at the end of the game wins, but if regulation play expires with the score tied, an additional period of play (overtime) is mandated.</p>
+    <p class="wikipedia"><a href="https://en.wikipedia.org/wiki/Basketball">Read on wikipedia</a></p>
+
+    <button class="Button"> TRY PLAYING BASKETBALL</button>
+    </section>
+    <script>
+        function play(){ 
+            let name= prompt("What is your name?" );
+            alert(" Thanks,"+ name + " , we will be in touch. Meanwhile, have a lot of fun!");
+           
+              }
+let playButton= document.querySelector("button");
+playButton.addEventListener("click",play);
+    </script> 
+    
+</body>
+</html>
